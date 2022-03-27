@@ -1,16 +1,46 @@
-# Part 1
-### a)
-1.beedrill   -->filescan_001.1
-2.blastoise    -->filescan_001
-3.
+# Part 1 
+### a). List out the pokemon found in which file
+
+### a). List out the pokemon found in which file
+1.beedrill   -->filescan_00.1.  
+   grep -e "beed"  filescan_00.1 > beedrill 
+2.blastoise    -->filescan_00.1
+  grep -e "blas" filescan_00.1
+3. bulbasaur  -->filescan_00.1
+   grep -e "bulb" filescan_00.1
+4. butterfree. -->filescan_00.1
+     grep -e "butt" filescan_00.1
+5. charmeleon.   -->filescan_00.2
+    grep -e "melon" filescan_00.2
+6.grep -e "izard" filescan_00.2  >charizard.txt
+7.grep -e "mander" filescan_00.2 >charmander.txt
+8.grep -e "ivys" filescan_00.3 > ivysaur.txt
+9.grep -e "jigg" filescan_00.3 >jigglypuff.txt
+10.grep -e "meow" filescan_00.3 >meowth.txt
+11.grep -e "pika"  filescan_00.3 > pikachu.txt
+12.grep -e "psyd"  filescan_00.4 >psyduck.txt
+13.grep -e "squi"  filescan_00.4 >squirtle.txt
+14. grep -e "venu"  filescan_00.4 >venusaur.txt
+15.grep -e "wart"  filescan_00.4 >wartortle.tx
+16.
 
 
 
-### b)
+
+
+
+### b). Move the text files to capture folder
+ grep -e "beed"  filescan_00.1 > beedrill  >captured/beedrill.txt
 
 
 
 ### c)
+1. Grep.CatchEmAll2 % grep -l "beed" ./forest/*
+2. Grep.CatchEmAll2 % grep -l "venu" ./forest/*
+./forest/filescan_00.4
+./forest/venusaur.txt
+
+
 
 
 
@@ -26,6 +56,24 @@
 
 # Part 2
 ### a)
+ Grep.CatchEmAll2 % ls captured |grep -e 'txt'      
+beedrill.txt
+blastoise.txt
+bulbasaur.txt
+butterfree.txt
+charizard.txt
+charmander.txt
+charmeleon.txt
+instruction.txt
+ivysaur.txt
+jigglypuff.txt
+meowth.txt
+pikachu.txt
+psyduck.txt
+squirtle.txt
+venusaur.txt
+wartortle.txt
+
 
 
 
@@ -33,7 +81,7 @@
 
 
 ### b)
-
+ggrep is not working in my machine
 
 
 
